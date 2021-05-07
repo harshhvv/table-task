@@ -16,11 +16,13 @@ class Stage3TableViewCell: UITableViewCell {
     @IBOutlet weak var noOfFollowers: UILabel!
     @IBOutlet weak var noOfPosts: UILabel!
     @IBOutlet weak var noOfFollowing: UILabel!
+    @IBOutlet weak var detailsView: UIView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
 //        profilePic.
-        profilePic.layer.cornerRadius = 100
+        profilePic.layer.cornerRadius = 50
+        detailsView.layer.cornerRadius = 20
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

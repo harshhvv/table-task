@@ -10,7 +10,7 @@ import UIKit
 class Stage2ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
    
     let animals = ["Cats", "Dogs", "Hamsters", "Parrots", "Goldfish"]
-    let pics = [UIImage(named: "cat.jpeg"), UIImage(named: "dog.jpg"), UIImage(named: "hamster.jpg"), UIImage(named: "parrot.jpg"), UIImage(named: "goldfish.jpeg")]
+    let pics = [UIImage(named: "cat.jpeg"), UIImage(named: "dog.jpg"), UIImage(named: "hamster.jpg"), UIImage(named: "parrot.jpg"), UIImage(named: "goldie.jpeg")]
 
     @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {

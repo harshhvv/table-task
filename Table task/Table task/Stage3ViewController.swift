@@ -9,17 +9,18 @@ import UIKit
 
 class Stage3ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    let images = [UIImage(named: "dog.jpg"), UIImage(named: "hamster.jpg")]
+    let images = [UIImage(named: "goldie.jpg"), UIImage(named: "hamster.jpg")]
     let people = ["Jack Daniel", "John Walker"]
     let followers = ["12.6k", "128.6k"]
     let posts = ["330", "150"]
     let following = ["1211", "90"]
     let bio = ["Director, Cinematographer", "Photographer, Artist"]
     
+    //@IBOutlet weak var detailsView: UIView!
     @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        //detailsView.layer.cornerRadius = 20
         // Do any additional setup after loading the view.
     }
     
