@@ -23,7 +23,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print(indexPath.row)
+       // print(indexPath.row)
         performSegue(withIdentifier: segues[indexPath.row], sender: nil)
        // performSegue(withIdentifier: "toStage2", sender: nil)
     }

@@ -20,6 +20,8 @@
 		3AD5F5AB26455B0500DBD4A3 /* Stage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5F5AA26455B0500DBD4A3 /* Stage2ViewController.swift */; };
 		3AD5F5B0264570B500DBD4A3 /* Stage3TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5F5AF264570B500DBD4A3 /* Stage3TableViewCell.swift */; };
 		3AD5F5B32645733300DBD4A3 /* Stage3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5F5B22645733300DBD4A3 /* Stage3ViewController.swift */; };
+		3AD5F5BE264594F600DBD4A3 /* Stage1_2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5F5BD264594F600DBD4A3 /* Stage1_2TableViewCell.swift */; };
+		3AD5F5C12645953C00DBD4A3 /* Stage1_3TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5F5C02645953C00DBD4A3 /* Stage1_3TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		3AD5F5AA26455B0500DBD4A3 /* Stage2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Stage2ViewController.swift; path = "Table task/Stage2ViewController.swift"; sourceTree = SOURCE_ROOT; };
 		3AD5F5AF264570B500DBD4A3 /* Stage3TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Stage3TableViewCell.swift; path = "Table task/Stage3TableViewCell.swift"; sourceTree = SOURCE_ROOT; };
 		3AD5F5B22645733300DBD4A3 /* Stage3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Stage3ViewController.swift; path = "Table task/Stage3ViewController.swift"; sourceTree = SOURCE_ROOT; };
+		3AD5F5BD264594F600DBD4A3 /* Stage1_2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Stage1_2TableViewCell.swift; path = "Table task/Stage1_2TableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		3AD5F5C02645953C00DBD4A3 /* Stage1_3TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Stage1_3TableViewCell.swift; path = "Table task/Stage1_3TableViewCell.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +89,10 @@
 		3AD5F5A3264559B400DBD4A3 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3AD5F5B22645733300DBD4A3 /* Stage3ViewController.swift */,
-				3AD5F5AA26455B0500DBD4A3 /* Stage2ViewController.swift */,
 				3AD5F58926454F4E00DBD4A3 /* ViewController.swift */,
 				3AD5F59D264553E700DBD4A3 /* Stage1ViewController.swift */,
+				3AD5F5AA26455B0500DBD4A3 /* Stage2ViewController.swift */,
+				3AD5F5B22645733300DBD4A3 /* Stage3ViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -96,10 +100,12 @@
 		3AD5F5A5264559C900DBD4A3 /* cells */ = {
 			isa = PBXGroup;
 			children = (
-				3AD5F5AF264570B500DBD4A3 /* Stage3TableViewCell.swift */,
 				3AD5F59A2645511800DBD4A3 /* StageViewCell.swift */,
 				3AD5F5A02645544A00DBD4A3 /* Stage1ViewCell.swift */,
+				3AD5F5BD264594F600DBD4A3 /* Stage1_2TableViewCell.swift */,
+				3AD5F5C02645953C00DBD4A3 /* Stage1_3TableViewCell.swift */,
 				3AD5F5A726455AAE00DBD4A3 /* Stage2TableViewCell.swift */,
+				3AD5F5AF264570B500DBD4A3 /* Stage3TableViewCell.swift */,
 			);
 			path = cells;
 			sourceTree = "<group>";
@@ -177,10 +183,12 @@
 				3AD5F59E264553E700DBD4A3 /* Stage1ViewController.swift in Sources */,
 				3AD5F5B0264570B500DBD4A3 /* Stage3TableViewCell.swift in Sources */,
 				3AD5F5A12645544A00DBD4A3 /* Stage1ViewCell.swift in Sources */,
+				3AD5F5BE264594F600DBD4A3 /* Stage1_2TableViewCell.swift in Sources */,
 				3AD5F5AB26455B0500DBD4A3 /* Stage2ViewController.swift in Sources */,
 				3AD5F58A26454F4E00DBD4A3 /* ViewController.swift in Sources */,
 				3AD5F5A826455AAE00DBD4A3 /* Stage2TableViewCell.swift in Sources */,
 				3AD5F59B2645511800DBD4A3 /* StageViewCell.swift in Sources */,
+				3AD5F5C12645953C00DBD4A3 /* Stage1_3TableViewCell.swift in Sources */,
 				3AD5F58626454F4E00DBD4A3 /* AppDelegate.swift in Sources */,
 				3AD5F58826454F4E00DBD4A3 /* SceneDelegate.swift in Sources */,
 				3AD5F5B32645733300DBD4A3 /* Stage3ViewController.swift in Sources */,
