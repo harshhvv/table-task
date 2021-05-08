@@ -18,7 +18,7 @@ class Stage2TableViewCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-        stage2ImageCell.layer.cornerRadius = 50
+        stage2ImageCell.layer.cornerRadius = 100
         // Configure the view for the selected state
     }
 

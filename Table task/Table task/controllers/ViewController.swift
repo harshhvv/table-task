@@ -26,6 +26,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
        // print(indexPath.row)
         performSegue(withIdentifier: segues[indexPath.row], sender: nil)
        // performSegue(withIdentifier: "toStage2", sender: nil)
+        
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

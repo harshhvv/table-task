@@ -28,6 +28,10 @@ class Stage3ViewController: UIViewController, UITableViewDelegate, UITableViewDa
         return people.count
     }
     
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return "People"
+    }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell3 = tableView.dequeueReusableCell(withIdentifier: "cell3", for: indexPath) as! Stage3TableViewCell
         cell3.profilePic.image = images[indexPath.row]
